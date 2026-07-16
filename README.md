@@ -9,8 +9,6 @@
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
 [![Adminer](https://img.shields.io/badge/Adminer-34567C?style=flat&logoColor=white)](https://www.adminer.org/)
-[![Database Server](https://img.shields.io/badge/Database_Server-003B57?style=flat&logoColor=white)](#)
-[![FTP](https://img.shields.io/badge/FTP-4A4A4A?style=flat&logoColor=white)](#)
 [![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?style=flat&logo=filezilla&logoColor=white)](https://filezilla-project.org/)
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logoColor=white)](#)
 
