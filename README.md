@@ -7,9 +7,12 @@
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Leaflet](https://img.shields.io/badge/Leaflet.js-199900?style=flat&logo=leaflet&logoColor=white)](https://leafletjs.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)](https://jquery.com/)
+[![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
+[![Adminer](https://img.shields.io/badge/Adminer-34567C?style=flat&logoColor=white)](https://www.adminer.org/)
+[![Database Server](https://img.shields.io/badge/Database_Server-003B57?style=flat&logoColor=white)](#)
+[![FTP](https://img.shields.io/badge/FTP-4A4A4A?style=flat&logoColor=white)](#)
+[![FileZilla](https://img.shields.io/badge/FileZilla-BF0000?style=flat&logo=filezilla&logoColor=white)](https://filezilla-project.org/)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logoColor=white)](#)
 
 ---
 
