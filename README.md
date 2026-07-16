@@ -19,10 +19,8 @@
 - [Overview](#overview)
 - [Screenshots](#screenshots)
 - [Features](#features)
-- [Architecture](#architecture)
 - [Technical Challenges & Learnings](#technical-challenges--learnings)
 - [Tech Stack](#tech-stack)
-- [What I Would Improve](#what-i-would-improve)
 - [Confidentiality Note](#confidentiality-note)
 - [Author](#author)
 
@@ -95,30 +93,6 @@ The dashboard is the single entry point for the technical/support team. From it,
 
 ---
 
-## Architecture
-
-The backend is split into **five independent, domain-specific databases**, each accessed through a shared connection manager rather than one single monolithic database. Conceptually:
-
-```
-                         ┌─────────────────────────────┐
-                         │        PHP Front Layer        │
-                         │  (dashboard, maps, tables)    │
-                         └───────────────┬───────────────┘
-                                         │
-                        ┌────────────────┼────────────────┐
-                        │                │                │
-                ┌───────▼──────┐ ┌───────▼──────┐ ┌───────▼──────┐
-                │   Stations & │ │   Users &    │ │  Calculated  │
-                │   Sensor     │ │   Roles /    │ │  Variables   │
-                │   Data DB    │ │   Projects DB│ │  DB          │
-                └──────────────┘ └──────────────┘ └──────────────┘
-                        │                │                │
-                ┌───────▼──────┐ ┌───────▼──────┐
-                │  Weather     │ │ Auto-        │
-                │  Messages DB │ │ Validation DB│
-                └──────────────┘ └──────────────┘
-```
-
 A single `DatabaseManager`-style class (singleton pattern, one PDO connection per database, lazily instantiated) centralizes all connections and exposes a `testAllConnections()` health-check used to power the "X/Y databases operational" KPI on the dashboard.
 
 Each page follows a simple **template/layout pattern**: a page script builds its own data and HTML fragment (via `ob_start()`), then hands it off to a shared layout file that renders the sidebar, top navigation, permissions check, and footer around it — keeping shared UI logic in one place instead of duplicating it across dozens of pages.
@@ -149,15 +123,6 @@ Each page follows a simple **template/layout pattern**: a page script builds its
 | Maps | Leaflet.js |
 | Auth | PHP Sessions, role-based permissions |
 | Tooling | XAMPP (local dev environment) |
-
----
-
-## What I Would Improve
-
-- Move database credentials and configuration out of source files entirely, using environment variables
-- Add automated tests around the permission-filtering logic
-- Consider a lightweight API layer to decouple the frontend from direct multi-database PHP queries
-- Add pagination/virtualization for the station map if the fleet grows significantly
 
 ---
 
