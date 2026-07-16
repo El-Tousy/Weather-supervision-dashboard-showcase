@@ -136,3 +136,13 @@ This project was developed for a company during my internship. **The source code
 
 - GitHub: [@Nexus-Vertex](https://github.com/Nexus-Vertex)
 - Contact: via [Email](https://mail.google.com/mail/?view=cm&fs=1&to=nexusovertex@gmail.com)
+
+---
+
+## License
+
+This project is distributed under the MIT License – see the [LICENSE](LICENSE) file for more details.
+
+---
+
+⭐ If you like this project, feel free to leave it a star!
