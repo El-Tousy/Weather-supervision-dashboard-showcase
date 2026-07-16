@@ -47,12 +47,12 @@ The dashboard is the single entry point for the technical/support team. From it,
 ---
 
 ## Screenshots
-
-> *(to be added: dashboard overview, station map, alarms panel — sensitive data blurred)*
-
-| Dashboard Overview | Station Map | Alarms Panel |
+ 
+> Sensitive data (real station names, coordinates, and alarm records) has been blurred/redacted before publishing.
+ 
+| Global Overview & Map | Stations List | Alarms Management |
 |---|---|---|
-| *screenshot coming soon* | *screenshot coming soon* | *screenshot coming soon* |
+| ![Dashboard overview with station map](Screenshots/dashboard-map.png) | ![Stations list](Screenshots/stations-list.png) | ![Alarms management](Screenshots/alarms.png) |
 
 ---
 
