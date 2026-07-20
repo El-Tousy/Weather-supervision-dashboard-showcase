@@ -14,6 +14,14 @@
 
 ---
 
+## Screenshots
+ 
+| Global Overview & Map | Stations List | Alarms Management |
+|---|---|---|
+| ![Dashboard overview with station map](Screenshots/dashboard-map.png) | ![Stations list](Screenshots/stations-list.png) | ![Alarms management](Screenshots/alarms.png) |
+
+---
+
 ## Table of Contents
 
 - [Context](#context)
@@ -44,14 +52,6 @@ The dashboard is the single entry point for the technical/support team. From it,
 - Drill down into a specific station's variables, history, and alarms
 - Manage users, roles, and permissions
 - Track notifications in real time (new alarms, events)
-
----
-
-## Screenshots
- 
-| Global Overview & Map | Stations List | Alarms Management |
-|---|---|---|
-| ![Dashboard overview with station map](Screenshots/dashboard-map.png) | ![Stations list](Screenshots/stations-list.png) | ![Alarms management](Screenshots/alarms.png) |
 
 ---
 
