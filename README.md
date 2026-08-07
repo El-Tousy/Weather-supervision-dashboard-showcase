@@ -134,7 +134,7 @@ This project was developed for a company during my internship. **The source code
 ## Author
 
 - GitHub: [@Nexus-Vertex](https://github.com/Nexus-Vertex)
-- Contact: via [Email](https://mail.google.com/mail/?view=cm&fs=1&to=nexusovertex@gmail.com)
+- Contact: via [Email](https://mail.google.com/mail/?view=cm&fs=1&to=leilaeltousy@gmail.com)
 
 ---
 
