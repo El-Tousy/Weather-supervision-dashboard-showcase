@@ -133,7 +133,7 @@ This project was developed for a company during my internship. **The source code
 
 ## Author
 
-- GitHub: [@Nexus-Vertex](https://github.com/Nexus-Vertex)
+- GitHub: [@El-Tousy](https://github.com/El-Tousy)
 - Contact: via [Email](https://mail.google.com/mail/?view=cm&fs=1&to=leilaeltousy@gmail.com)
 
 ---
